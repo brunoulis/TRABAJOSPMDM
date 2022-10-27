@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">ExemplesMenus</string>
-    <string name="mainActivityText">This is Main Activity</string>
-    <string name="ContextMenuView">Click to open context menu</string>
-    <string name="secondActivityText">This is second activity</string>
-    <string name="contextActivityText">This activity is opened from ContextMenu</string>
-</resources>
