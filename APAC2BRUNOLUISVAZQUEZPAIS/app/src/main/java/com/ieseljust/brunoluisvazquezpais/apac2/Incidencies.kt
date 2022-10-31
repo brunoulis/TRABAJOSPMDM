@@ -50,6 +50,11 @@ object Incidencies {
         ))
     }
 
+    fun replace(original: Incidencia, newIncidencia: Incidencia) {
+       val index = incidencies.indexOf(original)
+        incidencies[index] = newIncidencia
+    }
+
 
     // Métode per modificar una incidencia
     fun update(incidencia:Incidencia){
@@ -106,4 +111,5 @@ object Incidencies {
             )
         }
     }
+
 }

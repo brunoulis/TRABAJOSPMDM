@@ -1,34 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EditaIncidencia">
 
-    <com.google.android.material.appbar.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/Theme.APAC2.AppBarOverlay">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.APAC2.PopupOverlay" />
+    <ImageView
+        android:id="@+id/imageViewIncidencia"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/incidencia" />
 
-    </com.google.android.material.appbar.AppBarLayout>
+    <EditText
+        android:id="@+id/editAssumpteIncidencia"
+        android:layout_width="312dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp"
+        android:ems="15"
+        android:hint="Issue name"
+        app:layout_constraintEndOf="@+id/imageViewIncidencia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="@+id/imageViewIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewIncidencia" />
 
-    <include layout="@layout/content_edita_contacte" />
+    <EditText
+        android:id="@+id/editDescpIncidencia"
+        android:layout_width="308dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="72dp"
+        android:ems="15"
+        app:layout_constraintEndOf="@+id/imageViewIncidencia"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
+    <EditText
+        android:id="@+id/editUbiIncidencia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:layout_marginTop="132dp"
+        android:ems="15"
+        android:hint="Street"
+        app:layout_constraintEndOf="@+id/imageViewIncidencia"
+        app:layout_constraintEnd_toEndOf="@+id/editDescpIncidencia"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editDescpIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
 
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/String"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewIncidencia"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinnerClasse"
+        android:layout_width="312dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="24dp"
+        android:entries="@array/ClassesIncidencia"
+        app:layout_constraintEnd_toEndOf="@+id/editUbiIncidencia"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editUbiIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editUbiIncidencia" />
+
+    <Switch
+        android:id="@+id/editResoltIncidencia"
+        android:layout_width="322dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="188dp"
+        android:text="Solved"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerClasse"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/spinnerClasse"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="315dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="120dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editResoltIncidencia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editResoltIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editResoltIncidencia"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
