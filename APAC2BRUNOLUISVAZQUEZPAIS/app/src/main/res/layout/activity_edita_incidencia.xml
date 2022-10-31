@@ -36,11 +36,13 @@
         android:layout_height="41dp"
         android:layout_marginTop="72dp"
         android:ems="15"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEndOf="@+id/imageViewIncidencia"
         app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
-        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
-        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/editUbiIncidencia"
@@ -49,11 +51,13 @@
         android:layout_marginTop="132dp"
         android:ems="15"
         android:hint="Street"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEndOf="@+id/imageViewIncidencia"
         app:layout_constraintEnd_toEndOf="@+id/editDescpIncidencia"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editDescpIncidencia"
-        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -61,17 +65,19 @@
         android:layout_height="28dp"
         android:layout_marginTop="68dp"
         android:text="@string/String"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
         app:layout_constraintTop_toBottomOf="@+id/imageViewIncidencia"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <Spinner
-        android:id="@+id/spinnerClasse"
+        android:id="@+id/spinnerServei"
         android:layout_width="312dp"
         android:layout_height="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:entries="@array/ClassesIncidencia"
         app:layout_constraintEnd_toEndOf="@+id/editUbiIncidencia"
         app:layout_constraintHorizontal_bias="1.0"
@@ -82,12 +88,12 @@
         android:id="@+id/editResoltIncidencia"
         android:layout_width="322dp"
         android:layout_height="38dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginBottom="200dp"
         android:text="Solved"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/spinnerClasse"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/spinnerClasse"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerServei"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="@+id/spinnerServei"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -98,7 +104,7 @@
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/editResoltIncidencia"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editResoltIncidencia"
         app:layout_constraintTop_toBottomOf="@+id/editResoltIncidencia"
         app:layout_constraintVertical_bias="1.0" />

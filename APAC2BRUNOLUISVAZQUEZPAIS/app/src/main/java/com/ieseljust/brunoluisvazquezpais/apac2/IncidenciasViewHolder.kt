@@ -10,14 +10,16 @@ import com.ieseljust.pmdm.apac2.Incidencia
 
 class IncidenciasViewHolder : RecyclerView.ViewHolder (itemView) {
     val image: ImageView = itemView.findViewById(R.id.imageView) as ImageView
-    val ide: TextView = itemView.findViewById(R.id.idIncidencia) as TextView
+    val assumpte: TextView = itemView.findViewById(R.id.textAssumpte) as TextView
+    val descripcio: TextView = itemView.findViewById(R.id.textDescripcio) as TextView
 
     fun bind(
         incidencia: Incidencia,
         eventListenerClick: (Incidencia,View)->Unit,
         eventListenerLongClick: (Incidencia,View)->Boolean
     ) {
-        ide.text = incidencia.id.toString()
+        assumpte.text = incidencia.assumpte
+        descripcio.text = incidencia.descripcio
         image.setImageResource(incidencia.img)
 
         //Capturamops los eventos y invocamos al callback correspondiente

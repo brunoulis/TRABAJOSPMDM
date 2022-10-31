@@ -2,9 +2,10 @@ package com.ieseljust.brunoluisvazquezpais.apac2
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.ieseljust.brunoluisvazquezpais.apac2.databinding.ActivityMainBinding
 import com.ieseljust.pmdm.apac2.Incidencia
 import com.ieseljust.pmdm.apac2.Incidencies
-import com.ieseljust.pmdm.apac2.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 //cogemos la lista de incidencies y la transformamos en un lista mutable

@@ -1,7 +1,6 @@
 package com.ieseljust.pmdm.apac2
 
 import java.io.Serializable
-
 data class Incidencia (
     var id:Int,
     var assumpte: String,
