@@ -1,14 +1,12 @@
 package com.ieseljust.brunoluisvazquezpais.apac2;
 
-import android.util.Log
-import android.view.OrientationEventListener
 import android.view.View
 import android.widget.ImageView;
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.ieseljust.pmdm.apac2.Incidencia
 
-class IncidenciasViewHolder : RecyclerView.ViewHolder (itemView) {
+class IncidenciaViewHolder(itemView: View) : RecyclerView.ViewHolder (itemView) {
     val image: ImageView = itemView.findViewById(R.id.imageView) as ImageView
     val assumpte: TextView = itemView.findViewById(R.id.textAssumpte) as TextView
     val descripcio: TextView = itemView.findViewById(R.id.textDescripcio) as TextView

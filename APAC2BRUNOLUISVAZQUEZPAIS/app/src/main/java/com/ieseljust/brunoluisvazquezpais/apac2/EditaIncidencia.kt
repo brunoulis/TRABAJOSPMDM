@@ -22,11 +22,6 @@ class EditaIncidencia : AppCompatActivity() {
         //Cogemos la informacion del intent (si existe)
         val incidencia: Incidencia? = getIntent().getExtras()?.getSerializable("package com.ieseljust.brunoluisvazquezpais.apac2.Incidencia") as Incidencia?
 
-        setContentView(binding.root)
-
-        //Cogemos la informa del intent (si existe)
-        val incidencia: Incidencia? = getIntent().getExtras()?.getSerializable("package com.ieseljust.brunoluisvazquezpais.apac2.Incidencia") as Incidencia?
-
         incidencia?.also { //Si la incidencia no es nulo...
 
             //Actualizamos la incidencia actual
@@ -44,7 +39,7 @@ class EditaIncidencia : AppCompatActivity() {
             binding.editUbiIncidencia.setText(it.ubicacio)
 
             //Editamos el booleano de si esta resuelta o no
-            binding.editResoltIncidencia.setText(it.resolt)
+            binding.editResoltIncidencia.isChecked = it.resolt
          //Actualizamos el spinner
          //Recorremos los diferentes valores de esta y los comparamos
          //Con el valor guardado. Si coincide, dejamos seleccionado ese valor
@@ -71,12 +66,13 @@ class EditaIncidencia : AppCompatActivity() {
             //Obtenemos el id de la incidencia anterior
             //y le asignamos el nuevo id sumandole 1
             id = incidenciaActual?.id ?: -1,
-            binding.spinnerServei.selectedItem.toString(),
             binding.editAssumpteIncidencia.text.toString(),
             binding.editDescpIncidencia.text.toString(),
             binding.editUbiIncidencia.text.toString(),
-            incidenciaActual?.img:0,
-            binding.editResoltIncidencia.text.toString())
+            binding.spinnerServei.selectedItem.toString(),
+            //Duda para mañana por que no puedo poner incidenciaActual?.img?:0,
+            incidenciaActual?.img:0,//La imagen va a ser la misma
+            binding.editResoltIncidencia.isChecked
 
 
         if(incidenciaActual==null){
@@ -90,10 +86,11 @@ class EditaIncidencia : AppCompatActivity() {
         }else{
             //Si la incidencia actual no es nulo, es que estamos editando una existente
             //Actualizamos la incidencia en la lista
-            Incidencies.add(incidenciaActual!!, nou)
+            Incidencies.add(nou)
             Snackbar.make((binding.root),
                 "Incidencia añadido correctamente",
                 Snackbar.LENGTH_LONG).setAction("Close", {finish()}).show()
+            //Actualizamos la incidencia actual, por si despues queremos editarla
             incidenciaActual=nou
         }
 

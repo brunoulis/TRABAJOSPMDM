@@ -15,11 +15,11 @@ class AdaptadorIncidencias(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val vista = inflater.inflate(R.layout.incidencia_layout, parent, false)
-        return IncidenciasViewHolder(vista)
+        return IncidenciaViewHolder(vista)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as IncidenciasViewHolder).bind(Incidencies.incidencies[position],
+        (holder as IncidenciaViewHolder).bind(Incidencies.incidencies[position],
             eventListenerClick,
             eventListenerLongClick)
 
