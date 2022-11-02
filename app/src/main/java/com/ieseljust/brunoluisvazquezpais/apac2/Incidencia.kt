@@ -1,4 +1,4 @@
-package com.ieseljust.pmdm.apac2
+package com.ieseljust.brunoluisvazquezpais.apac2
 
 import java.io.Serializable
 data class Incidencia (

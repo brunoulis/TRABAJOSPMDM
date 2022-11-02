@@ -6,4 +6,96 @@
     android:layout_height="match_parent"
     tools:context=".EditaIncidencia">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/incidencia" />
+
+    <EditText
+        android:id="@+id/editAssumpteIncidencia"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:hint="Issue name"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editDescpIncidencia"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:hint="Street"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editDescpIncidencia" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="212dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textViewdescripcion"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="212dp"
+        android:text="Solved"
+        android:entries="@array/TiposServeis"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+
+    <Switch
+        android:id="@+id/editResoltIncidencia"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="292dp"
+        android:text="Solved"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="225dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="368dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
+        app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

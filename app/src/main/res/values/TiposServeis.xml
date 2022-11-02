@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="TiposServeis">
+        <item>Servei</item>
         <item>Jardineria</item>
         <item>Infraestructures</item>
         <item>Obres</item>

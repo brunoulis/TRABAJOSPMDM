@@ -1,8 +1,7 @@
-package com.ieseljust.pmdm.apac2
+package com.ieseljust.brunoluisvazquezpais.apac2
 
 import android.content.Context
 import android.util.Log
-import com.ieseljust.brunoluisvazquezpais.apac2.Incidencia
 import java.util.*
 
 object Incidencies {
@@ -21,7 +20,7 @@ object Incidencies {
     fun add(incidencia: Incidencia):Int{
         last_id++
         incidencies.add(incidencia)
-        return last_id-1
+        return last_id -1
     }
 
     // Mètode per afegir una incidència
@@ -61,7 +60,7 @@ object Incidencies {
         // amb l'id (aquest camp no es pot modificar)
         for (i in 0 until incidencies.size) {
             Log.d("Debug", "Index: "+i)
-            Log.d("Debug", "incidencies[i].id="+incidencies[i].id+" incidencia.id="+incidencia.id)
+            Log.d("Debug", "incidencies[i].id="+ incidencies[i].id+" incidencia.id="+incidencia.id)
             if (incidencies[i].id == incidencia.id) {
                 Log.d("Debug", "Coincidencia amb index " + i)
                 incidencies[i] = incidencia
