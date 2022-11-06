@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a2a2f69-2d51-427c-9b86-260808d9a211" name="Changes" comment="" />
+    <list default="true" id="e36617c8-2dc1-4fc5-a38b-1018ed0cf289" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/MyDialogFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APAC2BRUNOLUISVAZQUEZPAIS/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/AdaptadorIncidencias.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/AdaptadorIncidencias.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/EditaIncidencia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/EditaIncidencia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ieseljust/brunoluisvazquezpais/apac2/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_edita_incidencia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_edita_incidencia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,25 +31,13 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="Kotlin Class" />
-        <option value="layoutResourceFile_vertical" />
-        <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GiwQco6kajWD0Dpi2qegteH3pR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2HAolZjxNfgO41gTFF7K0GliwmU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,16 +49,8 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Bruno\Documents\2DAM\PMDM\TRABAJOSPMDM\APAC2BRUNOLUISVAZQUEZPAIS\app\src\main\res\layout" />
-    </key>
-    <key name="android.template.905803391">
-      <recent name="com.ieseljust.brunoluisvazquezpais.apac2" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="APAC2.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -123,23 +113,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3a2a2f69-2d51-427c-9b86-260808d9a211" name="Changes" comment="" />
-      <created>1666884698359</created>
+      <changelist id="e36617c8-2dc1-4fc5-a38b-1018ed0cf289" name="Changes" comment="" />
+      <created>1667737400981</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666884698359</updated>
+      <updated>1667737400981</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

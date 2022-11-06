@@ -6,8 +6,12 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 
 class AdaptadorIncidencias (
+    // Creamos los valores para el adaptador
+    //eventListenerclick es el evento que se ejecutará cuando se haga click en un elemento
+    //eventListenerlongclick es el evento que se ejecutará cuando se haga click largo en un elemento
     val  eventListenerClick: (Incidencia,View) -> Unit,
     val  eventListenerLongClick: (Incidencia,View) -> Boolean
+    
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
         val inflater = LayoutInflater.from(parent.context)

@@ -42,7 +42,7 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/editUbiIncidencia"
         android:layout_width="225dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -64,7 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinnerServei"
         android:layout_width="225dp"
         android:layout_height="50dp"
         android:layout_marginTop="212dp"
@@ -87,11 +87,11 @@
         app:layout_constraintTop_toBottomOf="@+id/editAssumpteIncidencia" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSave"
         android:layout_width="225dp"
         android:layout_height="50dp"
         android:layout_marginTop="368dp"
-        android:text="Button"
+        android:text="@string/Save"
         app:layout_constraintEnd_toEndOf="@+id/editAssumpteIncidencia"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/editAssumpteIncidencia"
