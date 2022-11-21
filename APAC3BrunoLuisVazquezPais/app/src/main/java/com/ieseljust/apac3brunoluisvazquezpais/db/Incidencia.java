@@ -1,9 +1,8 @@
-package com.ieseljust.apac3brunoluisvazquezpais.model_b;
+package com.ieseljust.apac3brunoluisvazquezpais.db;
 
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
-import  java.io.Serializable;
 
 @Entity
 data class Incidencia(

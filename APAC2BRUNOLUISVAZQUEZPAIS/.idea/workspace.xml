@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579a6440-e3fc-4055-af0d-3f1806842f87" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/model_b/Incidencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +33,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
