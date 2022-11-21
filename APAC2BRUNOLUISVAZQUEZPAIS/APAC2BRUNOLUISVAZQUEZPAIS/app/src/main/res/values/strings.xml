@@ -5,4 +5,5 @@
     <string name="askRemove">Are you sure to remove contact?</string>
     <string name="ActionCancelled">Delete has been cancelled</string>
     <string name="Save">SAVE</string>
+    <string name="botonAñadir">+</string>
 </resources>

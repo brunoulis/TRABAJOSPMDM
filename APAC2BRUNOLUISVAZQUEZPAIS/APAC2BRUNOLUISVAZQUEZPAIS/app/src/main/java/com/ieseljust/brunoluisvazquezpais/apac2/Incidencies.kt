@@ -71,9 +71,18 @@ object Incidencies {
 
     // Mètode per eliminar una incidencia
     fun remove(incidenciaAEliminar: Incidencia):Int{
-        val index= incidencies.indexOf(incidenciaAEliminar)
-        incidencies.remove(incidenciaAEliminar)
-        return index // Retorna l'índex de la incidència eliminada
+// Busquem en la llista d'incidències la incidència
+        // amb l'id (aquest camp no es pot modificar)
+        for (i in 0 until incidencies.size) {
+            if (incidencies[i].id == incidenciaAEliminar.id) {
+                incidencies.removeAt(i)
+                return i
+            }
+        }
+        return i
+        //val index= incidencies.indexOf(incidenciaAEliminar)
+        //incidencies.remove(incidenciaAEliminar)
+        //return index // Retorna l'índex de la incidència eliminada
     }
 
     fun afigDadesInicials(context:Context){

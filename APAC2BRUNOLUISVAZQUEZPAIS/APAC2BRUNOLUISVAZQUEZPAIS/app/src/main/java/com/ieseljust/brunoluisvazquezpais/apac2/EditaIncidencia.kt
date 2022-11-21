@@ -9,7 +9,7 @@ import com.ieseljust.brunoluisvazquezpais.apac2.databinding.ActivityEditaInciden
 class EditaIncidencia : AppCompatActivity() {
 
     private lateinit var binding: ActivityEditaIncidenciaBinding
-    private var incidenciaActual: Incidencia? = null
+    var existeIncidencia:Boolean = false
 
     override fun onCreate(savedInstanceState: Bundle?, ) {
         super.onCreate(savedInstanceState)
@@ -18,13 +18,19 @@ class EditaIncidencia : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        // Intentamos obtener una incidencia transferida en el Intent
+        val incidenciaTransferida: Incidencia? = getIntent().getExtras()
+            ?.getSerializable("objetoIncidencia") as Incidencia?
+
+
         //Cogemos la informacion del intent (si existe)
         val incidencia: Incidencia? = getIntent().getExtras()?.getSerializable("package com.ieseljust.apac2brunoluisvazquezpais.Incidencia") as Incidencia?
 
         incidencia?.also { //Si la incidencia no es nulo...
 
             //Actualizamos la incidencia actual
-            incidenciaActual = it
+
+            existeIncidencia = true
 
             //(En esta funcio de ambito, it hara referencia a la propio incidencia)
 
@@ -51,56 +57,42 @@ class EditaIncidencia : AppCompatActivity() {
             }
 
         }
+        var textoemergente = ""
+        val idImg:Int = this.resources.getIdentifier("incidencia", "drawable", this.packageName)
         //Capturamos el click sobre el boton de guardar:
         binding.buttonSave.setOnClickListener{
-            guardarIncidencia()
+            if(existeIncidencia){
+                Incidencies.update(
+                    Incidencia(
+                        incidenciaTransferida!!.id,
+                        binding.editAssumpteIncidencia.text.toString(),
+                        binding.editDescpIncidencia.text.toString(),
+                        binding.editUbiIncidencia.text.toString(),
+                        binding.spinnerServei.selectedItem.toString(),
+                        idImg,
+                        binding.editResoltIncidencia.isChecked
+                    )
+                )
+                textoemergente="Incidencia actualizada"
+
+            }else{
+                Incidencies.add(
+                    binding.editAssumpteIncidencia.text.toString(),
+                    binding.editDescpIncidencia.text.toString(),
+                    binding.editUbiIncidencia.text.toString(),
+                    binding.spinnerServei.selectedItem.toString(),
+                    idImg,
+                    binding.editResoltIncidencia.isActivated
+                )
+                textoemergente="Incidencia creada"
+
+            }
+            //Mostramos un mensaje emergente con snackbar
+            Snackbar.make(it, textoemergente, Snackbar.LENGTH_LONG).show()
+
         }
 
     }
 
-    fun guardarIncidencia() {
-        //  Cream una nueva incidencia con las informacion de las vistas
-        //Llamamos a la funcion de guardar incidencia
-        val nou = Incidencia(
-            //Obtenemos lla
-            incidenciaActual?.id ?: 0,
-            binding.editAssumpteIncidencia.text.toString(),
-            binding.editDescpIncidencia.text.toString(),
-            binding.editUbiIncidencia.text.toString(),
-            binding.spinnerServei.selectedItem.toString(),
-            incidenciaActual?.img ?: R.drawable.incidencia,
-            binding.editResoltIncidencia.isChecked
-        
-        )
-        var incidenciaAct: Incidencia? = nou
 
-
-        //Añadir la id a guardar el id de la incidencia actual
-        //Obtenemos el id de la incidencia anterior
-        //y le asignamos el nuevo id sumandole 1
-
-
-        if (incidenciaActual == null) {
-            //Si la incidencia actual es nulo, es que estamos creando una nueva
-            //Añadimos la incidencia a la lista
-            Incidencies.replace(incidenciaActual!!, nou)
-            Snackbar.make(
-                (binding.root),
-                "Incidencia modificada correctamente",
-                Snackbar.LENGTH_LONG
-            ).setAction("Close", { finish() }).show()
-
-        } else {
-            //Si la incidencia actual no es nulo, es que estamos editando una existente
-            //Actualizamos la incidencia en la lista
-            Incidencies.add(nou)
-            Snackbar.make(
-                (binding.root),
-                "Incidencia añadida correctamente",
-                Snackbar.LENGTH_LONG
-            ).setAction("Close", { finish() }).show()
-            //Actualizamos la incidencia actual, por si despues queremos editarla
-            incidenciaActual = nou
-        }
-    }
 }
