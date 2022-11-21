@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ieseljust.brunoluisvazquezpais.apac2.databinding.ActivityMainBinding
 
@@ -43,11 +44,20 @@ class MainActivity : AppCompatActivity() {
             { incidencia: Incidencia, v: View -> itemClicked(incidencia, v) },
             { incidencia: Incidencia, v: View -> itemLongClicked(incidencia, v)}
         )
-
-        
-
-        
-
+    }
+    override fun onResume() {
+            super.onResume()
+            //Actualizamos la vista con el recycler view
+            binding.IncidenciesRecyclerView.adapter?.notifyDataSetChanged()
 
     }
+
+
 }
+
+        
+
+        
+
+
+
