@@ -57,5 +57,7 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     // Extensió de Kotlin per a Room (inclou suport de corrutines)
     implementation "androidx.room:room-ktx:$room_version"
+    // Corrutines
+    implementation "androidx.room:room-coroutines:$room_version"
 
 }
