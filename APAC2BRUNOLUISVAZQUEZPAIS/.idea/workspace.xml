@@ -5,9 +5,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="579a6440-e3fc-4055-af0d-3f1806842f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/model_b/Incidencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC2BRUNOLUISVAZQUEZPAIS.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais (1).rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/androidTest/java/com/ieseljust/apac3brunoluisvazquezpais/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/plusimage-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/drawable/plusimage_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/debug/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/model/db/Incidencia.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/model/db/IncidenciaDAO.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/model/db/IncidenciasDB.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/repository/IncidenciaRepository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/view/dialogs/MyDialogFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/view/ui/FirstFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/view/ui/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/view/ui/SecondFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/viewmodel/AdaptadorIncidencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/viewmodel/AppIncidenciasViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/java/com/ieseljust/apac3brunoluisvazquezpais/viewmodel/IncidenciaViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/drawable/bottonvalues.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/drawable/descarga.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/layout/content_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values-land/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values-w1240dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values-w600dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/app/src/test/java/com/ieseljust/apac3brunoluisvazquezpais/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +116,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APAC3BrunoLuisVazquezPais" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../com.ieseljust.pmdm.Exemples2022/U3.ComponentsArquitectura/ProjecteContactesU3_3.Room" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
